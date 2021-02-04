@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="day50:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a069a11f-7b9d-45b9-bbae-a624bc0c7d77" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day50_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day50.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/WEB-INF/classes/com/qfedu/controller/AdminCategoryServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/WEB-INF/classes/com/qfedu/controller/BookServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/WEB-INF/classes/com/qfedu/dao/BookDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/WEB-INF/classes/com/qfedu/dao/CategoryDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/WEB-INF/classes/com/qfedu/dao/impl/BookDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/WEB-INF/classes/com/qfedu/dao/impl/CategoryDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/WEB-INF/classes/com/qfedu/entity/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/WEB-INF/classes/com/qfedu/entity/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/WEB-INF/classes/com/qfedu/service/BookService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/WEB-INF/classes/com/qfedu/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/WEB-INF/classes/com/qfedu/service/impl/BookServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/WEB-INF/classes/com/qfedu/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/WEB-INF/classes/com/qfedu/test/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/WEB-INF/classes/com/qfedu/util/BaseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/WEB-INF/classes/com/qfedu/util/BaseServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/WEB-INF/classes/com/qfedu/util/JDBCUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/WEB-INF/classes/com/qfedu/util/PageUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/WEB-INF/lib/c3p0-0.9.5.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/WEB-INF/lib/commons-dbutils-1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/WEB-INF/lib/junit-4.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/WEB-INF/lib/mchange-commons-java-0.2.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/adminjsps/admin/body.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/adminjsps/admin/book/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/adminjsps/admin/book/desc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/adminjsps/admin/book/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/adminjsps/admin/category/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/adminjsps/admin/category/del.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/adminjsps/admin/category/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/adminjsps/admin/category/mod.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/adminjsps/admin/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/adminjsps/admin/left.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/adminjsps/admin/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/adminjsps/admin/msg.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/adminjsps/admin/order/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/adminjsps/admin/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/adminjsps/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/adminjsps/msg.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/bank_img/abc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/bank_img/bc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/bank_img/bcc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/bank_img/beijingnongshang.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/bank_img/bh.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/bank_img/bj.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/bank_img/ccb.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/bank_img/cib.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/bank_img/cmb.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/bank_img/cmbc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/bank_img/dy.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/bank_img/gf.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/bank_img/guangda.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/bank_img/hx.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/bank_img/icbc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/bank_img/nanjing.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/bank_img/ningbo.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/bank_img/pingan.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/bank_img/post.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/bank_img/sfz.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/bank_img/sh.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/bank_img/shpd.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/bank_img/zheshang.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/bank_img/zx.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/book_img/20029394-1_l.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/book_img/20285763-1_l.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/book_img/20385925-1_l.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/book_img/22722790-1_l.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/book_img/22788412-1_l.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/book_img/8758723-1_l.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/book_img/8991366-1_l.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/book_img/9265169-1_l.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/book_img/9317290-1_l.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/book_img/AEDBCB07C7294EE78E555A8FFD964FF3_12345.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/images/all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/images/bookstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/images/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/images/database.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/images/welcome.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/jsps/body.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/jsps/book/desc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/jsps/book/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/jsps/cart/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/jsps/left.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/jsps/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/jsps/msg.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/jsps/order/desc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/jsps/order/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/jsps/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/jsps/user/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/jsps/user/regist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/menu/img/jia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/menu/img/jian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/menu/mymenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/day50_war_exploded/menu/mymenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qfedu/controller/AdminCategoryServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qfedu/controller/BookServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qfedu/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qfedu/dao/CategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qfedu/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qfedu/dao/impl/CategoryDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qfedu/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qfedu/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qfedu/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qfedu/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qfedu/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qfedu/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qfedu/test/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qfedu/util/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qfedu/util/BaseServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qfedu/util/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qfedu/util/PageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/qfedu/controller/AdminCategoryServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/qfedu/controller/BookServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/qfedu/dao/BookDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/qfedu/dao/CategoryDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/qfedu/dao/impl/BookDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/qfedu/dao/impl/CategoryDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/qfedu/entity/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/qfedu/entity/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/qfedu/service/BookService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/qfedu/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/qfedu/service/impl/BookServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/qfedu/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/qfedu/test/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/qfedu/util/BaseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/qfedu/util/BaseServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/qfedu/util/JDBCUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/qfedu/util/PageUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/c3p0-0.9.5.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/junit-4.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mchange-commons-java-0.2.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/adminjsps/admin/body.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/adminjsps/admin/book/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/adminjsps/admin/book/desc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/adminjsps/admin/book/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/adminjsps/admin/category/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/adminjsps/admin/category/del.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/adminjsps/admin/category/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/adminjsps/admin/category/mod.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/adminjsps/admin/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/adminjsps/admin/left.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/adminjsps/admin/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/adminjsps/admin/msg.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/adminjsps/admin/order/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/adminjsps/admin/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/adminjsps/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/adminjsps/msg.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bank_img/abc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bank_img/bc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bank_img/bcc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bank_img/beijingnongshang.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bank_img/bh.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bank_img/bj.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bank_img/ccb.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bank_img/cib.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bank_img/cmb.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bank_img/cmbc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bank_img/dy.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bank_img/gf.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bank_img/guangda.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bank_img/hx.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bank_img/icbc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bank_img/nanjing.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bank_img/ningbo.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bank_img/pingan.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bank_img/post.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bank_img/sfz.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bank_img/sh.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bank_img/shpd.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bank_img/zheshang.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bank_img/zx.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/book_img/20029394-1_l.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/book_img/20285763-1_l.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/book_img/20385925-1_l.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/book_img/22722790-1_l.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/book_img/22788412-1_l.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/book_img/8758723-1_l.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/book_img/8991366-1_l.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/book_img/9265169-1_l.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/book_img/9317290-1_l.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/book_img/AEDBCB07C7294EE78E555A8FFD964FF3_12345.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/bookstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/database.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/welcome.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsps/body.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsps/book/desc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsps/book/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsps/cart/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsps/left.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsps/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsps/msg.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsps/order/desc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsps/order/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsps/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsps/user/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jsps/user/regist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/menu/img/jia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/menu/img/jian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/menu/mymenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/menu/mymenu.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/qfedu/dao/CategoryDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/qfedu/util/PageUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/qfedu/util/JDBCUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/qfedu/util/BaseServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/qfedu/util/BaseDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/adminjsps/admin/book/desc.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/adminjsps/admin/book/add.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="55" selection-end-line="24" selection-end-column="32" />
+              <folding>
+                <element signature="n#style#0;n#input#3;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/qfedu/entity/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/qfedu/entity/Category.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/adminjsps/admin/book/list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-296" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\.m2\repository" />
+        <option name="mavenHome" value="E:/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1025" />
+    <option name="y" value="376" />
+    <option name="width" value="980" />
+    <option name="height" value="1103" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Users\26010\IdeaProjects\day50\src" />
+      <recent name="F:\Users\26010\IdeaProjects\day50\web" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.31" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.31" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/day50/" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="day50:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/day50" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_31_day50" />
+        <option name="JNDI_PORT" value="1098" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="javadebug" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="day50:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a069a11f-7b9d-45b9-bbae-a624bc0c7d77" name="Default Changelist" comment="" />
+      <created>1612405620208</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612405620208</updated>
+      <workItem from="1612405624543" duration="8963000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8963000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="820" y="301" width="784" height="882" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.261708" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32956153" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.11066667" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="haha" />
+    <option name="LAST_COMMIT_MESSAGE" value="haha" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/web/jsps/book/desc.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/qfedu/dao/impl/BookDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/qfedu/dao/impl/CategoryDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/qfedu/controller/BookServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/qfedu/controller/AdminCategoryServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/qfedu/dao/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/qfedu/dao/CategoryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/qfedu/util/PageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/adminjsps/admin/book/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-296" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/qfedu/entity/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/qfedu/entity/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/qfedu/util/BaseServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/qfedu/util/JDBCUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/qfedu/util/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/adminjsps/admin/book/desc.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/adminjsps/admin/book/add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="55" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#input#3;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>day50:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>day50</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
